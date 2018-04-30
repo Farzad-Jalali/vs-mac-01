@@ -8,10 +8,9 @@ namespace testing.nUnitTesting
         [Test()]
         public void TestCase()
         {
-            var p = new { id = 45, Name = "Farzad" };
+            var p = new { id = 45, Name = "Farzad" , score = 23.5};
 
             Assert.AreEqual(p.id, 45);
-
 
         }
     }
